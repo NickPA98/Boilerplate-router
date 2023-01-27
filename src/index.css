@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+html{
+  background-color:antiquewhite;
+}
+
+*{
+  margin:0;
+}
+
+.navbar{
+  padding:20px;
+  display:flex;
+  align-items:center;
+  max-width:700px;
+  margin: 0 auto;
+  background-color:bisque;
+  border:2px solid black;
+  box-shadow:2px 2px 2px 1px ;
+  font-family: 'Righteous', cursive
+
+}
+
+.navbar h1{
+  color:indianred;
+  font-size:40px;
+}
+
+
+
+.navbar a{
+  margin-left:80px;
+  text-decoration:none;
+  padding:6px;
+  color:indianred;
+}
+
+.navbar a:hover{
+  color:black;
+}
+
+
+
+.homeContainer{
+  border:2px solid black;
+  box-shadow:2px 2px;
+  background-color: bisque;
+  width:100%;
+  height:40vw;
+  margin:auto;
+  position:relative;
+  top:10px;
+
+
+}
+
+.footer{
+  padding:20px;
+  display:flex;
+  align-items:center;
+  max-width:1500px;
+  margin: 0 auto;
+  background-color:bisque;
+  border:2px solid black;
+  box-shadow:2px 2px 2px 1px ;
+  font-family: 'Righteous', cursive;
+  position:relative;
+  bottom:-20px;
+
+}
+
+.footer h3{
+  color:indianred;
+  font-size:40px;
+}
+
+
+
+.footer a{
+  margin-left:80px;
+  text-decoration:none;
+  padding:6px;
+  color:indianred;
+}
+
+.footer a:hover{
+  color:black;
+font-family: 'Righteous', cursive;
+}
+
+.page3Nav a {
+  text-decoration:none;
+  padding:6px;
+  color:indianred;
+  font-family: 'Righteous', cursive
+}
+
+.page3Nav a:hover{
+  color:black;
+}
+
+.pagethreetwotext{
+  position:relative;
+  top:20%;
+
+     }
